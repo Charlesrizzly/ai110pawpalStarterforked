@@ -2,6 +2,13 @@
 
 **PawPal+** is a Streamlit-based pet care task scheduler that helps pet owners plan daily care activities based on their availability and task priorities. The system uses a priority-based greedy algorithm to generate optimal schedules while handling various constraints and edge cases.
 
+## 📸 Demo
+-[ 
+
+https://github.com/user-attachments/assets/f44f2cd9-1a3d-4177-ba17-4121fe71929b
+
+] [Insert screenshot here!]
+
 ## Features
 
 ### Core Scheduling Algorithm
@@ -234,14 +241,3 @@ This project followed a systematic TDD approach:
 5. **Algorithm Implementation**: Built scheduler with tests (21 tests)
 6. **UI Integration**: Connected backend to Streamlit interface
 7. **Reflection**: Documented design decisions and lessons learned
-
-## Future Enhancements
-
-Potential extensions for future iterations:
-- **Optimal Scheduling**: Branch-and-bound algorithm for perfect packing
-- **Multiple Pets**: Schedule tasks for multiple pets with conflict detection
-- **Recurring Tasks**: Support daily/weekly recurring activities
-- **Task Dependencies**: Handle "walk before feeding" constraints
-- **Persistence**: Save/load schedules, export to calendar formats
-- **Smart Suggestions**: Recommend priority adjustments for better fit
-- **Visual Timeline**: Graphical view of scheduled activities
